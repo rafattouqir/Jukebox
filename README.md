@@ -1,6 +1,6 @@
 ![Jukebox: audio player in Swift](https://raw.githubusercontent.com/teodorpatras/Jukebox/master/assets/jukebox.png)
 
-![Swift3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")
+![Swift5](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat")
 [![Platform](https://img.shields.io/cocoapods/p/Jukebox.svg?style=flat)](http://cocoapods.org/pods/Jukebox)
 [![Build Status](https://travis-ci.org/teodorpatras/Jukebox.svg)](https://travis-ci.org/teodorpatras/Jukebox)
 [![Version](https://img.shields.io/cocoapods/v/Jukebox.svg?style=flat)](http://cocoapods.org/pods/Jukebox)
@@ -43,7 +43,7 @@ $ gem install cocoapods
 To integrate ``Jukebox`` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'Jukebox'
+pod 'Jukebox', :git => 'https://github.com/rafattouqir/Jukebox.git'
 ```
 
 Then, run the following command:
